@@ -1,6 +1,6 @@
 {
   "name": "@yellowsmallsea/dsh-pixelfx",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "description": "Pixel-art VFX library and live preview panel for the DSH Web UI, built on patch-gg/pixelfx.",
   "repository": {
     "type": "git",
@@ -32,7 +32,9 @@
     "esbuild": "^0.25.10"
   },
   "dsh": {
-    "bundle": { "patch": "./cordis.patch.yml" },
+    "bundle": {
+      "patch": "./cordis.patch.yml"
+    },
     "client": {
       "platform": "web",
       "immediately": true

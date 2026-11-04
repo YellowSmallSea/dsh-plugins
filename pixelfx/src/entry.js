@@ -579,8 +579,11 @@ function PixelfxIcon({ size = 18, active = false }) {
 
 const CSS = `
   .pfx_root {
+    flex: 1;
     height: 100%;
+    max-height: calc(var(--dsh-conversation-viewport-height, 100vh) - var(--dsh-composer-height, 0px));
     min-height: 0;
+    overflow: hidden;
     display: flex;
     flex-direction: column;
     background: var(--dsw-alias-bg-base);
@@ -630,6 +633,7 @@ const CSS = `
     flex: none;
     min-height: 0;
     overflow: auto;
+    overscroll-behavior: contain;
     border-right: .5px solid var(--dsw-alias-border-l1);
     padding: 6px 0 16px;
   }
@@ -670,7 +674,7 @@ const CSS = `
   .pfx_stage {
     position: relative;
     flex: 1;
-    min-height: 220px;
+    min-height: 160px;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -700,7 +704,7 @@ const CSS = `
   .pfx_infoHead { flex: 1; min-width: 0; display: flex; flex-direction: column; gap: 3px; }
   .pfx_infoTitle { font-size: 14px; font-weight: 600; line-height: 20px; }
   .pfx_infoMeta { font-size: 11px; color: var(--dsw-alias-label-secondary); }
-  .pfx_desc { margin: 2px 0 0; font-size: 12px; line-height: 18px; color: var(--dsw-alias-label-secondary); max-width: 720px; }
+  .pfx_desc { margin: 2px 0 0; font-size: 12px; line-height: 18px; color: var(--dsw-alias-label-secondary); max-width: 720px; display: -webkit-box; -webkit-line-clamp: 2; -webkit-box-orient: vertical; overflow: hidden; }
   .pfx_tags { display: flex; flex-wrap: wrap; gap: 4px; margin-top: 2px; }
   .pfx_tag {
     font-size: 10px;
@@ -748,7 +752,7 @@ const CSS = `
   .pfx_pre {
     margin: 0;
     padding: 8px 12px 10px;
-    max-height: 150px;
+    max-height: 106px;
     overflow: auto;
     font-family: ui-monospace, SFMono-Regular, "Cascadia Mono", Menlo, Consolas, monospace;
     font-size: 11px;
