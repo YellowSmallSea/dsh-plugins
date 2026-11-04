@@ -7,6 +7,7 @@
 | 目录 | 包名 | 说明 |
 | --- | --- | --- |
 | [`cot-graph`](cot-graph/) | `@yellowsmallsea/dsh-cot-graph` | 思考链图谱：把会话中的推理步骤、工具调用与子代理派发画成可交互的节点图 |
+| [`pixelfx`](pixelfx/) | `@yellowsmallsea/dsh-pixelfx` | 像素特效库：244 个代码生成的像素特效，在 DSH 侧边栏面板里实时预览 |
 
 ## 从 DSH 安装
 
