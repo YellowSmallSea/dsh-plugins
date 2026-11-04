@@ -31,11 +31,11 @@
       "versions": [
         {
           "version": "1.0.0",
-          "publishTimestamp": 1793790807,
+          "publishTimestamp": 1793790961,
           "source": {
             "type": "git",
             "url": "https://github.com/YellowSmallSea/dsh-plugins",
-            "commit": "b300de3f5dbf815f83f432c602ca9aa974fdd422",
+            "commit": "cad4dac374c26e23f07aa8f9c1b94d68d542b27b",
             "path": "cot-graph"
           }
         }
@@ -62,12 +62,12 @@
       },
       "versions": [
         {
-          "version": "1.0.0",
-          "publishTimestamp": 1793790807,
+          "version": "1.0.1",
+          "publishTimestamp": 1793790961,
           "source": {
             "type": "git",
             "url": "https://github.com/YellowSmallSea/dsh-plugins",
-            "commit": "b300de3f5dbf815f83f432c602ca9aa974fdd422",
+            "commit": "cad4dac374c26e23f07aa8f9c1b94d68d542b27b",
             "path": "pixelfx"
           }
         }
