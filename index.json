@@ -1,0 +1,45 @@
+{
+  "format": 1,
+  "title": {
+    "en": "YellowSmallSea DSH plugins",
+    "zh": "YellowSmallSea 的 DSH 插件"
+  },
+  "description": {
+    "en": "Bundles for the DeepSeek Harness Web UI.",
+    "zh": "DeepSeek Harness Web UI 的插件集合。"
+  },
+  "plugins": [
+    {
+      "name": "@yellowsmallsea/dsh-cot-graph",
+      "title": {
+        "en": "Chain Graph",
+        "zh": "思考链图谱"
+      },
+      "description": {
+        "en": "Draws the reasoning steps, tool calls, and sub-agent dispatches of a conversation as a node graph.",
+        "zh": "以节点图展示会话中的推理步骤、工具调用与子代理派发。"
+      },
+      "icon": "cot-graph/icon.svg",
+      "homepage": "https://github.com/YellowSmallSea/dsh-plugins/tree/main/cot-graph",
+      "repository": {
+        "url": "https://github.com/YellowSmallSea/dsh-plugins",
+        "directory": "cot-graph"
+      },
+      "metadata": {
+        "keywords": []
+      },
+      "versions": [
+        {
+          "version": "1.0.0",
+          "publishTimestamp": 1793789276,
+          "source": {
+            "type": "git",
+            "url": "https://github.com/YellowSmallSea/dsh-plugins",
+            "commit": "aa73e0d26cb1310e211622d206c5bf6f740820d5",
+            "path": "cot-graph"
+          }
+        }
+      ]
+    }
+  ]
+}
