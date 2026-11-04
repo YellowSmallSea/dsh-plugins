@@ -20,6 +20,7 @@ const PANEL_ID = "pixelfx"
 
 const zh = {
   "panel.label": "像素特效",
+  "view.label": "像素特效",
   "panel.title": "像素特效库",
   "panel.subtitle": "代码生成的像素特效，实时预览",
   "search.placeholder": "搜索特效、标签或分类",
@@ -47,6 +48,7 @@ const zh = {
 
 const en = {
   "panel.label": "Pixel FX",
+  "view.label": "Pixel FX",
   "panel.title": "Pixel FX Library",
   "panel.subtitle": "Code-driven pixel effects with live preview",
   "search.placeholder": "Search effects, tags, or categories",
@@ -797,6 +799,19 @@ export function apply(ctx) {
       {
         name: "main",
         key: PANEL_ID,
+      },
+      PixelfxEntry,
+    ),
+  )
+
+  ctx.slots.inject("conversation.view", () =>
+    ctx.slots.register(
+      {
+        name: "conversation.view",
+        id: PANEL_ID,
+        order: 30,
+        locale: NS,
+        label: () => translate("view.label"),
       },
       PixelfxEntry,
     ),

@@ -10,7 +10,12 @@ DSH 侧边栏面板插件：把 [patch-gg/pixelfx](https://github.com/patch-gg/p
 - **Git 规格**：`git+https://github.com/YellowSmallSea/dsh-plugins.git#<40位commit>&path:/pixelfx`
 - **本机目录**：`plugin_manager install_bundle` 的 target 指向本目录
 
-安装后，左侧栏面板区（Plugins、Schedules 附近）出现一个像素火花图标，点开就是特效库。
+安装后有两个入口：
+
+- **侧边栏面板**：左侧栏面板区（Plugins、Schedules 附近）出现一个像素火花图标，点开是整页特效库。
+- **会话视图页签**：任意会话的视图页签行里多出「像素特效」，和「思考图」并列，切换即可预览。
+
+两个入口是同一个面板：左侧 244 个特效列表，右侧实时画布。
 
 ## 用法
 
