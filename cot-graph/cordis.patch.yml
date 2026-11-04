@@ -1,0 +1,4 @@
+- insert:
+    - id: cot-graph
+      name: '@yellowsmallsea/dsh-cot-graph'
+      config: {}

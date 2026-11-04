@@ -1,0 +1,7 @@
+# Dependencies and build output
+node_modules/
+*.tgz
+.DS_Store
+
+# DSH runtime state
+.dsh/

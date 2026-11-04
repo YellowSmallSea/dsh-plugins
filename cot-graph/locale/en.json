@@ -1,0 +1,6 @@
+{
+  "meta": {
+    "title": "Chain Graph",
+    "description": "Draws the reasoning steps, tool calls, and sub-agent dispatches of a conversation as a node graph."
+  }
+}
