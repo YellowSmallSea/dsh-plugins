@@ -799,6 +799,7 @@ export function apply(ctx) {
       {
         name: "main",
         key: PANEL_ID,
+        locale: NS,
       },
       PixelfxEntry,
     ),
