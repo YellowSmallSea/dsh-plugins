@@ -31,12 +31,44 @@
       "versions": [
         {
           "version": "1.0.0",
-          "publishTimestamp": 1793789276,
+          "publishTimestamp": 1793790807,
           "source": {
             "type": "git",
             "url": "https://github.com/YellowSmallSea/dsh-plugins",
-            "commit": "aa73e0d26cb1310e211622d206c5bf6f740820d5",
+            "commit": "b300de3f5dbf815f83f432c602ca9aa974fdd422",
             "path": "cot-graph"
+          }
+        }
+      ]
+    },
+    {
+      "name": "@yellowsmallsea/dsh-pixelfx",
+      "title": {
+        "en": "Pixel FX Library",
+        "zh": "像素特效库"
+      },
+      "description": {
+        "en": "Browse and live-preview 244 code-driven pixel effects inside DSH, with the usage code for each.",
+        "zh": "在 DSH 里浏览并实时预览 244 个代码生成的像素特效，可直接查看用法代码。"
+      },
+      "icon": "pixelfx/icon.svg",
+      "homepage": "https://github.com/YellowSmallSea/dsh-plugins/tree/main/pixelfx",
+      "repository": {
+        "url": "https://github.com/YellowSmallSea/dsh-plugins",
+        "directory": "pixelfx"
+      },
+      "metadata": {
+        "keywords": []
+      },
+      "versions": [
+        {
+          "version": "1.0.0",
+          "publishTimestamp": 1793790807,
+          "source": {
+            "type": "git",
+            "url": "https://github.com/YellowSmallSea/dsh-plugins",
+            "commit": "b300de3f5dbf815f83f432c602ca9aa974fdd422",
+            "path": "pixelfx"
           }
         }
       ]
